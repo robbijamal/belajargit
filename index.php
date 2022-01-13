@@ -27,7 +27,7 @@ $query = "SELECT id,perihal,penerima_internal,penerima_internal_tembusan FROM no
 $result = mysqli_query( $conn, $query );
 $jmlemailsend = mysqli_num_rows($result);
 $idnota = array();
-
+//By Ahmad Robbi Al Jamal
 	$mail = new PHPMailer;
  
 	//Enable SMTP debugging. 
